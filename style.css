@@ -1,4 +1,4 @@
-/* Reset some default styles */
+
 body, h1, h2, p, ul, li, table, form, input, textarea {
     margin: 0;
     padding: 0;
@@ -53,11 +53,12 @@ h2 {
 .summary-content img {
     margin-right: 20px;
     border-radius: 50%;
-    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, box-shadow 0.5s ease; 
 }
 
 .summary-content img:hover {
-    transform: scale(1.1); /* Adjust the scale factor for the desired zoom effect */
+    transform: scale(1.1); 
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.4); 
 }
 
 ul {
