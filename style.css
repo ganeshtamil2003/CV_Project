@@ -1,0 +1,163 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li, table, form, input, textarea {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+#position {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+section {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #0077b6;
+    font-size: 24px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #0077b6;
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+.summary-content {
+    display: flex;
+    align-items: center;
+}
+
+.summary-content img {
+    margin-right: 20px;
+    border-radius: 50%;
+    transition: transform 0.5s ease;
+}
+
+.summary-content img:hover {
+    transform: scale(1.1); /* Adjust the scale factor for the desired zoom effect */
+}
+
+ul {
+    list-style-type: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+th {
+    background-color: #0077b6;
+    color: white;
+}
+
+/* .skills-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+} */
+
+.skills {
+    margin-bottom: 10px; 
+}
+.skills table {
+    width: 55%; 
+    margin: 0;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+form {
+    margin-top: 15px;
+}
+
+label {
+    font-weight: bold;
+    color: #0077b6;
+}
+
+input[type='text'],
+input[type='email'],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type='submit'] {
+    background-color: #0077b6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    background-color: #0077b6;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+#contacts {
+    list-style-type: none;
+    padding: 0;
+    margin-top: -50px;
+}
+
+#contacts li {
+    margin: 7px;
+}
+
+#contacts a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contacts a:hover {
+    text-decoration: underline;
+}
+
+#copyright {
+    margin-top: 10px;
+}
